@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtname"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtemail"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtgender"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtstatus"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="created"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtcreated"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="updated"
+        android:textSize="10sp"
+        android:padding="10dp"
+        android:id="@+id/txtupdated"
+        />
+</LinearLayout>
